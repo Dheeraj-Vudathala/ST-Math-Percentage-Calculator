@@ -4,6 +4,6 @@ function Submit() {
             document.getElementById("answer").innerHTML = "Please enter a valid number."
         }
     else {
-        document.getElementById("answer").innerHTML = ("You have completed " + (puzzles / 30).toFixed(0) + "% of ST Math.");
+        document.getElementById("answer").innerHTML = ("You have completed " + (puzzles / 29.436).toFixed(0) + "% of ST Math.");
     }
 }
