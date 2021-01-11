@@ -1,6 +1,6 @@
 function Submit() {
     var puzzles = document.getElementById("puzzles").value;
-    if (puzzles > 3268 || puzzles < 0) {
+    if (puzzles > 2986 || puzzles < 0) {
         document.getElementById("answer").innerHTML = "Please enter a valid number."
     }
     else {
