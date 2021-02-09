@@ -6,8 +6,9 @@
         <link rel="stylesheet" href="pm.css">
         <script src="puzzles.js">
             function Submit() {
-                var puzzles = document.getElementById("puzzles").value;
                 alert("puzzles");
+                var puzzles = document.getElementById("puzzles").value;
+                alert("puzzles2");
                 if puzzles > 3546 {
                     document.getElementById("answer").innerHTML = "Please enter a valid number.";
                     alert("if puzzles");
@@ -43,7 +44,7 @@
             <label for="puzzles"><span>How many puzzles have you completed?</span></label>
         </div>
         <br>
-        <button onclick="Submit()" title="Submit">Submit</button>
+        <button onclick="Submit();" title="Submit">Submit</button>
         <p id="answer"></p>
         <br>
         <br>
